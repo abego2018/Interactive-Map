@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
     integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
     crossorigin=""/>
-    <script type="text/javascript" src="index.js"></script>
+    
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
     integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
     crossorigin=""></script>
@@ -18,16 +18,18 @@
 <body>
 <!-- Selector-->
 <form>
-    Search nearby:
-    <select id="businesses">
+    Search 
+    <select id="business">
       <option></option>
       <option value="coffee">Coffee</option>
-      <option value="restaurantt">Restaurant</option>  
+      <option value="restaurants">Restaurant</option>  
       <option value="hotel">Hotel</option>
       <option value="market">Market</option>
     </select>
-    <button id="searchBttn">Search</button>
+    nearby:
+    <button id="apple">Submit</button>
  
     <div id="map"></div>
+    <script type="text/javascript" src="index.js"></script>
 </body>
 </html>
